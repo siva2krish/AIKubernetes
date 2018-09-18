@@ -20,4 +20,4 @@ secrets:
 
   acrPassword: "JgZ+LeZgVMg/dSHfcmoWP1x4QGpLDfC8"
 
-vcsSidecar: "vcsSidecar: "deis/git-sidecar:v0.11.0"
+vcsSidecar: "deis/git-sidecar:v0.11.0"
