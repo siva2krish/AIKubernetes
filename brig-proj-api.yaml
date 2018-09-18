@@ -1,0 +1,23 @@
+project: "siva2krish/AIKubernetes"
+
+repository: "github.com/siva2krish/AIKubernetes.git"
+
+cloneURL: "https://github.com/siva2krish/AIKubernetes.git"
+
+sharedSecret: "sivaram"
+
+# MAKE SURE YOU CHANGE THIS. It's basically a password
+
+github:
+
+  token: "08f4071d353f965a1a454699514cbbefa270ee6e"
+
+secrets:
+
+  acrServer: sivak8s.azurecr.io
+
+  acrUsername: sivak8s
+
+  acrPassword: "JgZ+LeZgVMg/dSHfcmoWP1x4QGpLDfC8"
+
+vcsSidecar: "vcsSidecar: "deis/git-sidecar:v0.11.0"
