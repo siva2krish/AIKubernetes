@@ -25,7 +25,7 @@ def get_prediction():
     loaded_model = pickle.load(open('some_model.pkl', 'rb'))
     prediction = loaded_model.predict([[feature1, feature2, feature3]])
     return str(prediction)
-
+#app.run(port=5000,host='0.0.0.0')
 if __name__ == '__main__':
     if os.environ['ENVIRONMENT'] == 'production':
         app.run(port=80,host='0.0.0.0')
