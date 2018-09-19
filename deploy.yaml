@@ -34,7 +34,7 @@ spec:
       imagePullSecrets:
         - name: regcred
       containers:
-      - image: $ACR_DNS/sivak8s/python-flask-sklearn-docker:$(Build.BuildId)
+      - image: sivak8s.azurecr.io/sivak8s/python-flask-sklearn-docker:134
         command: [ "/bin/bash", "-ce", "tail -f /dev/null" ]
         name:  ai-api-cntnr
         resources:
