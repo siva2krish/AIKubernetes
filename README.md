@@ -4,7 +4,7 @@ On init, a simple linear regression model is created and saved on machine. On re
 For more information read [this post](https://blog.solutotlv.com/deployed-scikit-learn-model-flask-docker/?utm_source=Github&utm_medium=python-flask-sklearn-docker-template)
 
 
-# requirements  
+## requirements  
 docker installed
 
 
