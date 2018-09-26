@@ -9,7 +9,7 @@ image:
 service:
   name: python
   type: LoadBalancer
-  externalPort: 3000
+  externalPort: 4000
   internalPort: 5000
 resources:
   limits:
