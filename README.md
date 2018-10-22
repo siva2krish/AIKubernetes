@@ -7,4 +7,4 @@ On init, a simple linear regression model is created and saved on machine. On re
 127.0.0.1:3000/prediction/api/v1.0/some_prediction?f1=4&f2=4&f3=4  
 
 
-### AIKubernetes ###
+### AIKubernetes ####
