@@ -8,4 +8,3 @@ On init, a simple linear regression model is created and saved on machine. On re
 
 
 ### AIKubernetes ####
-### AIKubernetes ####
